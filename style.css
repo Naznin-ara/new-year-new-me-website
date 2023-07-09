@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner{
+    width:100%;
+    height:950px;
+    background-image: url("images/banner/banner3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 144px;
+}
+.banner-heading{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   width:30%;
+   align-items: center;
+   margin-right:230px;
+   margin-top:216px;
+   margin-bottom:24px;
+   text-align: right;
+
+}
+.banner-heading h1{
+    width:525px;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.para1{
+    width:494px;
+    text-align:right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom:53px;
+
+}
+.btn{
+    width:160px;
+    height:64px;
+    border-radius: 5px;
+    color: #005FAC;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-align:center;
+    margin-left:359px;
+   
+}
+.info-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    height:800px;
+    gap:87px;
+}
+
+
+.pic img{
+    width:700px;
+    height:898px;
+    margin-right: 217px;
+    
+}
+.info-heading{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+}
+.info-heading h1{
+    color: #151414;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.para{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.info-heading ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    color:#444343;
+    
+}
+.info-heading ul li i{
+    color:#63ace7;
+    margin-right: 10px;
+    
+}
+/* info end */
+/* my plan start */
+.my-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:700px;
+    width:100%;
+}
+.my-plan h1{
+color:#151414;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+margin-bottom:50px;
+
+}
+.plan-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:150px;
+    width:80%;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    width:70%;
+    margin:10px auto;
+}
+.plan img{
+    width:92px;
+    height:92px;
+
+}
+.plan h2{
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+}
+.plan p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color:#737272;
+}
+
+
